@@ -779,7 +779,7 @@ server:
     # Labels to apply to the PVC
     labels: {}
     # Labels to apply to the PVC
-    VolumeName: ""
+    volumeName: ""
 
   # Persistent Volume Claim (PVC) retention policy
   # ref: https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#persistentvolumeclaim-retention
