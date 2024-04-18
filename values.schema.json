@@ -702,6 +702,9 @@
                                 "null",
                                 "string"
                             ]
+                        },
+                        "volumeName": {
+                            "type": "string"
                         }
                     }
                 },

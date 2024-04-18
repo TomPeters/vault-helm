@@ -298,6 +298,7 @@ storage might be desired by the user.
             storage: {{ .Values.server.dataStorage.size }}
           {{- if .Values.server.dataStorage.storageClass }}
         storageClassName: {{ .Values.server.dataStorage.storageClass }}
+        volumeName: {{ .Values.server.dataStorage.volumeName }}
           {{- end }}
       {{ end }}
       {{- if eq (.Values.server.auditStorage.enabled | toString) "true" }}
